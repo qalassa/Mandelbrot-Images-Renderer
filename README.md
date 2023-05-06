@@ -25,6 +25,8 @@ ffmpeg -framerate 30 -i mandelbrot_%04d.png -c:v libx264 -pix_fmt yuv420p mandel
 
 *10(seconds) * 30(fps) = 300 images.*
 
+--------------------------------------
+
 ***TODO:***
 
 **Animatied version(Redndering slowly until it shapes fully)**
