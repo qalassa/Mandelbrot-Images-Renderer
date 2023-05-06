@@ -2,7 +2,7 @@
 This code execute(or actually render) Mandelbrot Set fractals resulting in images as output.
 ![mandelbrot_0018](https://user-images.githubusercontent.com/109701506/236647025-86de7365-aa89-42ae-ac28-3f6954be8d49.png)
 The more the compilation lasts, the more acuration and beauty released.
-
+------------------------------------------------------------------------
 Compilation:
 ```
 cargo build
@@ -11,7 +11,8 @@ Running:
 ```
 cargo run
 ```
-
+**This will output rendered images.**
+--------------------------------------------
 You can create an animated video from the images by doing:
 ```
 ffmpeg -framerate 30 -i mandelbrot_%04d.png -c:v libx264 -pix_fmt yuv420p mandelbrot_zoom.mp4
