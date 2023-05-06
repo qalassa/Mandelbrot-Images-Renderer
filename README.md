@@ -4,14 +4,13 @@ This code execute(or actually render) Mandelbrot Set fractals resulting in image
 The more the compilation lasts, the more acuration and beauty released.
 
 Compilation:
-'''
+```
 cargo build
-'''
-
+```
 Running:
-'''
+```
 cargo run
-'''
+```
 
 TODO:
 -Animatied version(Redndering slowly until it shapes fully)
