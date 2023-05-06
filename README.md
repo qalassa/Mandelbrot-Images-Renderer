@@ -13,7 +13,9 @@ cargo run
 ```
 
 TODO:
--Animatied version(Redndering slowly until it shapes fully)
-*More Fractals
-+Mathematical based animation
+
+**Animatied version(Redndering slowly until it shapes fully)**
+**More Fractals**
+**Mathematical based animation**
+
 
